@@ -1,3 +1,5 @@
+using Infernum.FPS.Weapons.Config;
+using Infernum.FPS.Weapons.Visual;
 using UnityEngine;
 
 namespace Infernum.FPS.Player
@@ -12,6 +14,9 @@ namespace Infernum.FPS.Player
         bool IsAlive { get; }
 
         void SetControlsEnabled(bool enabled);
+        void EquipWeapon(WeaponConfig config);
+        void PickUpWeapon(WeaponWorldObject worldObject);
+        void DropWeapon(Vector3 worldDropPosition);
         void SetWeaponVisual(GameObject weaponPrefabOrNull);
     }
 }

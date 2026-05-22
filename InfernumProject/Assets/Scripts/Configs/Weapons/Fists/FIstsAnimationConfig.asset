@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84fdf74343b03454a95463093121d270, type: 3}
+  m_Name: FIstsAnimationConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Infernum.FPS.Weapons.Animation.WeaponAnimationConfig
+  reload: {fileID: 11400000, guid: 7322b780ac959da459edd3fd189b242d, type: 2}
+  fire: {fileID: 11400000, guid: ebb51f82ea98f3145b1f8338e9ef1f96, type: 2}
+  idle: {fileID: 11400000, guid: e18b9b1177af2204e9e0fa752a774ff8, type: 2}

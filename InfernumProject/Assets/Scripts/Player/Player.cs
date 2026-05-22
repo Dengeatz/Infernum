@@ -1,4 +1,6 @@
 using Infernum.FPS.Core;
+using Infernum.FPS.Weapons.Config;
+using Infernum.FPS.Weapons.Visual;
 using UnityEngine;
 
 namespace Infernum.FPS.Player
@@ -11,11 +13,13 @@ namespace Infernum.FPS.Player
     {
         [SerializeField] private PlayerCamera playerCameraService;
         [SerializeField] private PlayerMovement playerMovementService;
+        [SerializeField] private PlayerRaycastService playerRaycastService;
         [SerializeField] private PlayerWeaponService playerWeaponService;
         [SerializeField] private Health health;
 
         private IPlayerCamera _camera;
         private IPlayerMovement _movement;
+        private IPlayerRaycastService _raycast;
         private IPlayerWeapon _weapon;
 
         public Transform Transform => transform;
@@ -28,6 +32,7 @@ namespace Infernum.FPS.Player
         {
             _camera = playerCameraService != null ? playerCameraService : null;
             _movement = playerMovementService != null ? playerMovementService : null;
+            _raycast = playerRaycastService != null ? playerRaycastService : null;
             _weapon = playerWeaponService != null ? playerWeaponService : null;
 
             if (health != null)
@@ -49,6 +54,7 @@ namespace Infernum.FPS.Player
             float dt = Time.deltaTime;
             _movement?.Tick(dt);
             _camera?.Tick(dt);
+            _raycast?.Tick();
             _weapon?.Tick(dt);
         }
 
@@ -68,6 +74,21 @@ namespace Infernum.FPS.Player
             {
                 _weapon.Enabled = enabled;
             }
+        }
+
+        public void EquipWeapon(WeaponConfig config)
+        {
+            _weapon?.EquipWeapon(config);
+        }
+
+        public void PickUpWeapon(WeaponWorldObject worldObject)
+        {
+            _weapon?.PickUpFromWorld(worldObject);
+        }
+
+        public void DropWeapon(Vector3 worldDropPosition)
+        {
+            _weapon?.DropCurrentWeapon(worldDropPosition);
         }
 
         public void SetWeaponVisual(GameObject weaponPrefabOrNull)

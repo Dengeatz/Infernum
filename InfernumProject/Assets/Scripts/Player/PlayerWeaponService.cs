@@ -1,24 +1,25 @@
-using Infernum.FPS.Core;
+using Infernum.FPS.Weapons;
+using Infernum.FPS.Weapons.Config;
+using Infernum.FPS.Weapons.Visual;
 using UnityEngine;
 
 namespace Infernum.FPS.Player
 {
     /// <summary>
-    /// Оружие как отдельный сервис: визуал в руках, синхронизация с якорем, стрельба рейкастом.
+    /// Оружейный сервис: экипировка, FSM оружия, Fire / Reload, UI-анимация через PlayerWeaponAnimationService.
     /// </summary>
     public sealed class PlayerWeaponService : MonoBehaviour, IPlayerWeapon
     {
-        [SerializeField] private Transform handAnchor;
-        [SerializeField] private Transform playerRoot;
-        [SerializeField] private Camera aimCamera;
-        [SerializeField] private Vector3 localPositionOffset = new Vector3(0.35f, -0.25f, 0.55f);
-        [SerializeField] private Vector3 localEulerOffset;
-        [SerializeField] private float damage = 25f;
-        [SerializeField] private float maxDistance = 80f;
-        [SerializeField] private LayerMask hitMask = ~0;
+        [SerializeField] private PlayerRaycastService raycastService;
+        [SerializeField] private PlayerWeaponAnimationService weaponAnimationService;
+        [SerializeField] private Camera viewCamera;
+        [SerializeField] private KeyCode reloadKey = KeyCode.R;
 
-        private GameObject _weaponVisual;
+        private Weapon _currentWeapon;
         private bool _enabled = true;
+
+        public Weapon CurrentWeapon => _currentWeapon;
+        public bool HasWeaponEquipped => _currentWeapon != null;
 
         public bool Enabled
         {
@@ -28,77 +29,126 @@ namespace Infernum.FPS.Player
 
         private void Awake()
         {
-            if (playerRoot == null)
+            if (raycastService == null)
             {
-                playerRoot = transform;
+                raycastService = GetComponent<PlayerRaycastService>();
             }
 
-            if (handAnchor == null)
+            if (weaponAnimationService == null)
             {
-                handAnchor = playerRoot;
+                weaponAnimationService = GetComponent<PlayerWeaponAnimationService>();
             }
 
-            if (aimCamera == null)
+            if (weaponAnimationService == null)
             {
-                aimCamera = FindAnyObjectByType<Camera>();
+                weaponAnimationService = gameObject.AddComponent<PlayerWeaponAnimationService>();
             }
+
+            if (viewCamera == null)
+            {
+                viewCamera = GetComponentInChildren<Camera>();
+            }
+        }
+
+        public void EquipWeapon(WeaponConfig config)
+        {
+            SetEquippedWeapon(config, null);
+        }
+
+        public void PickUpFromWorld(WeaponWorldObject worldObject)
+        {
+            if (worldObject == null || !worldObject.IsAvailable)
+            {
+                return;
+            }
+
+            SetEquippedWeapon(worldObject.Config, worldObject);
+        }
+
+        public void DropCurrentWeapon(Vector3 worldDropPosition)
+        {
+            if (_currentWeapon == null)
+            {
+                return;
+            }
+
+            WeaponConfig config = _currentWeapon.Config;
+            ClearEquippedState();
+            WeaponWorldObject.Spawn(config, worldDropPosition, Quaternion.identity, viewCamera);
         }
 
         public void SetWeaponPrefab(GameObject prefabOrNull)
         {
-            if (_weaponVisual != null)
-            {
-                Destroy(_weaponVisual);
-                _weaponVisual = null;
-            }
-
             if (prefabOrNull == null)
             {
+                ClearEquippedState();
                 return;
             }
 
-            _weaponVisual = Instantiate(prefabOrNull, handAnchor);
-            _weaponVisual.transform.localPosition = Vector3.zero;
-            _weaponVisual.transform.localRotation = Quaternion.identity;
+            if (!prefabOrNull.TryGetComponent(out WeaponWorldObject worldObject))
+            {
+                worldObject = prefabOrNull.GetComponentInChildren<WeaponWorldObject>();
+            }
+
+            if (worldObject != null)
+            {
+                PickUpFromWorld(worldObject);
+            }
         }
 
         public void Tick(float deltaTime)
         {
-            if (handAnchor == null)
-            {
-                return;
-            }
+            weaponAnimationService?.Tick(deltaTime);
+            _currentWeapon?.Tick(deltaTime);
 
-            handAnchor.position = playerRoot.TransformPoint(localPositionOffset);
-            handAnchor.rotation = playerRoot.rotation * Quaternion.Euler(localEulerOffset);
-
-            if (_weaponVisual != null)
-            {
-                _weaponVisual.transform.SetPositionAndRotation(handAnchor.position, handAnchor.rotation);
-            }
-
-            if (!_enabled || aimCamera == null)
+            if (!_enabled || _currentWeapon == null || raycastService == null)
             {
                 return;
             }
 
             if (Input.GetMouseButtonDown(0))
             {
-                Fire();
+                TryFire();
+            }
+
+            if (Input.GetKeyDown(reloadKey))
+            {
+                _currentWeapon.TryReload();
             }
         }
 
-        private void Fire()
+        private void SetEquippedWeapon(WeaponConfig config, WeaponWorldObject worldSource)
         {
-            Ray ray = aimCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
-            if (Physics.Raycast(ray, out RaycastHit hit, maxDistance, hitMask, QueryTriggerInteraction.Ignore))
+            ClearEquippedState();
+
+            if (config == null)
             {
-                IDamageable damageable = hit.collider.GetComponentInParent<IDamageable>();
-                if (damageable != null && damageable.IsAlive)
-                {
-                    damageable.TakeDamage(damage, gameObject);
-                }
+                return;
             }
+
+            weaponAnimationService.BindWeapon(config);
+            _currentWeapon = new Weapon(config, weaponAnimationService);
+
+            if (worldSource != null)
+            {
+                worldSource.OnPickedUp();
+            }
+        }
+
+        private void ClearEquippedState()
+        {
+            _currentWeapon = null;
+            weaponAnimationService?.Hide();
+        }
+
+        private void TryFire()
+        {
+            if (raycastService == null)
+            {
+                return;
+            }
+
+            _currentWeapon.TryFire(raycastService.Hits, gameObject, raycastService.LastRayOrigin);
         }
     }
 }
