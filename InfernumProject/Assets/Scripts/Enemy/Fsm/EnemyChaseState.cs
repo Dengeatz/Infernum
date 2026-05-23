@@ -2,6 +2,9 @@ using UnityEngine;
 
 namespace Infernum.FPS.Enemy.Fsm
 {
+    /// <summary>
+    /// Идёт к цели — move-анимация.
+    /// </summary>
     public sealed class EnemyChaseState : IEnemyState
     {
         public static readonly EnemyChaseState Instance = new EnemyChaseState();
@@ -12,6 +15,7 @@ namespace Infernum.FPS.Enemy.Fsm
 
         public void Enter(EnemyStateContext context)
         {
+            context.Animation?.PlayMove();
         }
 
         public void Tick(EnemyStateContext context, float deltaTime)

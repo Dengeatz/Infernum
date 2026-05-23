@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Infernum.FPS.Core.Animation;
 using Infernum.FPS.Weapons.Config;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,9 +8,9 @@ using UnityEngine.UI;
 namespace Infernum.FPS.Player
 {
     /// <summary>
-    /// UI-оружие на экране: позиция, Image и проигрывание idle / fire / reload из конфигов.
+    /// UI-оружие на экране: idle / fire / reload из конфигов.
     /// </summary>
-    public sealed class PlayerWeaponAnimationService : MonoBehaviour, IPlayerWeaponAnimationService
+    public sealed class PlayerWeaponAnimationService : SpriteSequenceAnimationServiceBase, IPlayerWeaponAnimationService
     {
         [SerializeField] private Canvas targetCanvas;
         [SerializeField] private RectTransform weaponSlot;
@@ -18,28 +19,20 @@ namespace Infernum.FPS.Player
         [SerializeField] private Vector2 weaponSize = new Vector2(280f, 200f);
         [SerializeField] private bool createCanvasIfMissing = true;
 
-        private readonly SpriteSequenceAnimator _animator = new();
+        private ImageSpriteTarget _spriteTarget;
         private WeaponConfig _config;
 
         public Image WeaponImage => weaponImage;
-        public bool IsPlaying => _animator.IsPlaying;
 
         private void Awake()
         {
-            EnsureUI();
-            _animator.Bind(weaponImage);
-            Hide();
+            EnsureTarget();
+            StopAndHide();
         }
 
         public void BindWeapon(WeaponConfig config)
         {
             _config = config;
-            EnsureUI();
-
-            if (weaponSlot != null)
-            {
-                weaponSlot.gameObject.SetActive(config != null);
-            }
 
             if (config == null)
             {
@@ -52,18 +45,7 @@ namespace Infernum.FPS.Player
 
         public void Hide()
         {
-            _animator.Stop();
-
-            if (weaponImage != null)
-            {
-                weaponImage.enabled = false;
-                weaponImage.sprite = null;
-            }
-
-            if (weaponSlot != null)
-            {
-                weaponSlot.gameObject.SetActive(false);
-            }
+            StopAndHide();
         }
 
         public void PlayIdle()
@@ -75,7 +57,7 @@ namespace Infernum.FPS.Player
 
             PlaySequence(
                 _config.GetIdleSprites(),
-                _config.AnimationConfig != null ? _config.AnimationConfig.IdleFrameInterval : 0.35f,
+                GetInterval(_config.AnimationConfig.IdleFrameInterval, 0.35f),
                 loop: true,
                 onComplete: null);
         }
@@ -90,7 +72,7 @@ namespace Infernum.FPS.Player
 
             PlaySequence(
                 _config.GetFireSprites(),
-                _config.AnimationConfig != null ? _config.AnimationConfig.FireFrameInterval : 0.2f,
+                GetInterval(_config.AnimationConfig.FireFrameInterval, 0.2f),
                 loop: false,
                 onComplete);
         }
@@ -105,32 +87,21 @@ namespace Infernum.FPS.Player
 
             PlaySequence(
                 _config.GetReloadSprites(),
-                _config.AnimationConfig != null ? _config.AnimationConfig.ReloadFrameInterval : 0.45f,
+                GetInterval(_config.AnimationConfig.ReloadFrameInterval, 0.45f),
                 loop: false,
                 onComplete);
         }
 
-        public void Tick(float deltaTime)
-        {
-            _animator.Tick(deltaTime);
-        }
-
-        private void PlaySequence(IReadOnlyList<Sprite> sprites, float frameInterval, bool loop, Action onComplete)
-        {
-            EnsureUI();
-
-            if (weaponSlot != null)
-            {
-                weaponSlot.gameObject.SetActive(true);
-            }
-
-            _animator.Play(sprites, frameInterval, loop, onComplete);
-        }
-
-        private void EnsureUI()
+        protected override void EnsureTarget()
         {
             if (weaponImage != null && weaponSlot != null)
             {
+                if (_spriteTarget == null)
+                {
+                    _spriteTarget = new ImageSpriteTarget(weaponImage);
+                    Animator.Bind(_spriteTarget);
+                }
+
                 return;
             }
 
@@ -171,7 +142,30 @@ namespace Infernum.FPS.Player
                 weaponImage.preserveAspect = true;
             }
 
-            _animator.Bind(weaponImage);
+            _spriteTarget = new ImageSpriteTarget(weaponImage);
+            Animator.Bind(_spriteTarget);
+        }
+
+        protected override void SetVisible(bool visible)
+        {
+            if (weaponSlot != null)
+            {
+                weaponSlot.gameObject.SetActive(visible);
+            }
+
+            if (weaponImage != null)
+            {
+                weaponImage.enabled = visible;
+                if (!visible)
+                {
+                    weaponImage.sprite = null;
+                }
+            }
+        }
+
+        private static float GetInterval(float value, float fallback)
+        {
+            return value > 0f ? value : fallback;
         }
     }
 }

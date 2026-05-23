@@ -2,6 +2,9 @@ using UnityEngine;
 
 namespace Infernum.FPS.Enemy.Fsm
 {
+    /// <summary>
+    /// Атакует — attack-анимация.
+    /// </summary>
     public sealed class EnemyAttackState : IEnemyState
     {
         public static readonly EnemyAttackState Instance = new EnemyAttackState();
@@ -12,6 +15,7 @@ namespace Infernum.FPS.Enemy.Fsm
 
         public void Enter(EnemyStateContext context)
         {
+            context.Animation?.PlayAttack();
         }
 
         public void Tick(EnemyStateContext context, float deltaTime)

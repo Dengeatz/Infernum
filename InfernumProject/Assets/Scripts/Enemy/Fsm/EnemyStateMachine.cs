@@ -2,9 +2,6 @@ using UnityEngine;
 
 namespace Infernum.FPS.Enemy.Fsm
 {
-    /// <summary>
-    /// FSM: единственная ответственность — выбор и исполнение текущего состояния.
-    /// </summary>
     public sealed class EnemyStateMachine : MonoBehaviour
     {
         private EnemyStateContext _context;
@@ -37,9 +34,15 @@ namespace Infernum.FPS.Enemy.Fsm
                 return;
             }
 
-            if (_context.Health != null && !_context.Health.IsAlive)
+            _context.Animation?.Tick(Time.deltaTime);
+
+            if (_context.IsDead)
             {
-                enabled = false;
+                if (_current is not EnemyDeadState)
+                {
+                    ForceState(EnemyDeadState.Instance);
+                }
+
                 return;
             }
 
@@ -54,6 +57,11 @@ namespace Infernum.FPS.Enemy.Fsm
 
         private static IEnemyState EvaluateTransition(IEnemyState current, EnemyStateContext ctx)
         {
+            if (ctx.IsDead)
+            {
+                return EnemyDeadState.Instance;
+            }
+
             if (!ctx.HasAlivePlayer())
             {
                 return EnemyPatrolState.Instance;
@@ -105,6 +113,11 @@ namespace Infernum.FPS.Enemy.Fsm
                 }
 
                 return EnemyPatrolState.Instance;
+            }
+
+            if (current is EnemyDeadState)
+            {
+                return EnemyDeadState.Instance;
             }
 
             return EnemyPatrolState.Instance;

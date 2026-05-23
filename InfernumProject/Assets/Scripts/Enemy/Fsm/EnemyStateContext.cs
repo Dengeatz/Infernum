@@ -1,14 +1,11 @@
 using Infernum.FPS.Core;
+using Infernum.FPS.Enemy.Config;
 using Infernum.FPS.Enemy.Services;
-using Infernum.FPS.Enemy;
 using Infernum.FPS.Player;
 using UnityEngine;
 
 namespace Infernum.FPS.Enemy.Fsm
 {
-    /// <summary>
-    /// Общий контекст для состояний FSM (данные + сервисы, без логики переходов внутри сервисов).
-    /// </summary>
     public sealed class EnemyStateContext
     {
         public EnemyStateContext(
@@ -17,6 +14,8 @@ namespace Infernum.FPS.Enemy.Fsm
             EnemyPatrolService patrol,
             EnemyAttackService combat,
             Health health,
+            IEnemyAnimationService animation,
+            EnemyConfig config,
             float chaseRange,
             float chaseSpeed)
         {
@@ -25,6 +24,8 @@ namespace Infernum.FPS.Enemy.Fsm
             Patrol = patrol;
             Combat = combat;
             Health = health;
+            Animation = animation;
+            Config = config;
             ChaseRange = chaseRange;
             ChaseSpeed = chaseSpeed;
         }
@@ -34,6 +35,8 @@ namespace Infernum.FPS.Enemy.Fsm
         public EnemyPatrolService Patrol { get; }
         public EnemyAttackService Combat { get; }
         public Health Health { get; }
+        public IEnemyAnimationService Animation { get; }
+        public EnemyConfig Config { get; }
 
         public float ChaseRange { get; }
         public float ChaseSpeed { get; }
@@ -43,6 +46,8 @@ namespace Infernum.FPS.Enemy.Fsm
         public Vector3 SpawnPosition { get; private set; }
 
         public Transform PlayerTransform => Player != null ? Player.Transform : null;
+
+        public bool IsDead => Health != null && !Health.IsAlive;
 
         public void Bind(IPlayer player, IPatrolZone zone, Vector3 spawnPosition)
         {

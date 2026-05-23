@@ -1,16 +1,15 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace Infernum.FPS.Player
+namespace Infernum.FPS.Core.Animation
 {
     /// <summary>
-    /// Поочерёдно показывает спрайты на UI Image (1 кадр — пауза, N кадров — цикл или один проход).
+    /// Поочерёдно показывает спрайты на UI Image или SpriteRenderer.
     /// </summary>
     public sealed class SpriteSequenceAnimator
     {
-        private Image _target;
+        private ISpriteSequenceTarget _target;
         private IReadOnlyList<Sprite> _sprites = Array.Empty<Sprite>();
         private float _frameInterval = 0.25f;
         private bool _loop;
@@ -21,7 +20,7 @@ namespace Infernum.FPS.Player
 
         public bool IsPlaying => _isPlaying;
 
-        public void Bind(Image target)
+        public void Bind(ISpriteSequenceTarget target)
         {
             _target = target;
         }
@@ -35,22 +34,22 @@ namespace Infernum.FPS.Player
             _loop = loop;
             _onComplete = onComplete;
 
-            if (_target == null || _sprites.Count == 0)
+            if (_target == null || !_target.IsValid || _sprites.Count == 0)
             {
                 Complete();
                 return;
             }
 
             _frameIndex = 0;
-            _target.sprite = _sprites[0];
-            _target.enabled = true;
+            _target.Sprite = _sprites[0];
+            _target.Enabled = true;
             _timer = _frameInterval;
             _isPlaying = !loop || _sprites.Count > 1;
         }
 
         public void Tick(float deltaTime)
         {
-            if (!_isPlaying || _target == null)
+            if (!_isPlaying || _target == null || !_target.IsValid)
             {
                 return;
             }
@@ -77,7 +76,7 @@ namespace Infernum.FPS.Player
                 }
             }
 
-            _target.sprite = _sprites[_frameIndex];
+            _target.Sprite = _sprites[_frameIndex];
         }
 
         public void Stop()
