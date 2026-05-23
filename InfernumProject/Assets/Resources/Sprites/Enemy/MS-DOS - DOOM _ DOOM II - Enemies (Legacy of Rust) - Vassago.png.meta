@@ -1,0 +1,2328 @@
+fileFormatVersion: 2
+guid: 318ba693868882e489a67a8b0e8bc594
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 824
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23c185647de0cc409f96f6ab55b577e
+      internalID: 111469955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 825
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccb6ce87c15ca347830c697218da5dd
+      internalID: -1440894654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 825
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9720b70ca3c0a1a4f82db1380fb40237
+      internalID: 2014317468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 824
+        width: 72
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a781df0c2811f0640b924b57dde023f4
+      internalID: -172490083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 825
+        width: 83
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b621f22633e0dd445bd283dc9ba17318
+      internalID: -1722979588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_5
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 825
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2168154497d406d4dbe2f05d02d0ea90
+      internalID: -721077534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_6
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 824
+        width: 63
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f8e16eeb685994a93488bdc11a3fc3
+      internalID: -1206801206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_7
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 734
+        width: 78
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eb61e90dc9a7b45bfa075c9d1ba7f3
+      internalID: -1769833570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 735
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d94f8db3352cc74f989cdbe20a4d248
+      internalID: 1978100919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 735
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668df60e43cc21c489f6637e2bb89ad7
+      internalID: -1356004880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 734
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640dd3ca552e10f47991325bb22e2fa9
+      internalID: 2060529219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 734
+        width: 63
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a386548a6c4539f47bb0bfe0436e9ee6
+      internalID: 1541749059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 734
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164aa642cbad80a4d8ad32449f4e1be0
+      internalID: -752184919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 734
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0b5f55fac3dd14d933e4f936fc2821
+      internalID: 1855454881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 734
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82212f2edfe5f0642a914a46a3de0b51
+      internalID: -677737075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_15
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 769
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a8d00cf52099e41a51eba13c3bdfd7
+      internalID: 1310792931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_16
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 769
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9f9e67b041aa744af644e61aa57596
+      internalID: 329184254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_17
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 769
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cdfa10a56bdf843ab8a0268623d2b8
+      internalID: -112143626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_18
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 769
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb0e616e8ffc8e4baee019666461e4b
+      internalID: -1290357120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_19
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 769
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e86223a4906ad45a6554bf5c80b07e
+      internalID: 1712181002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_20
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 769
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72334127e9426e64590ae780f1745cc4
+      internalID: 1337674299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 644
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c73ddca51d28f4395a8d8ff2bb384f
+      internalID: 2064070934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 644
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63471711dfde55841b53691ea44591ae
+      internalID: 1593783572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 644
+        width: 63
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd7e45266201bc40a61f97ab234288f
+      internalID: -1766628490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_24
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 645
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0c6c4379d39dc4c94c9231faa740e4
+      internalID: 2068458577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 645
+        width: 83
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad713209347f9498d0a5f44ecf4bb2
+      internalID: 786288264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 644
+        width: 72
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fac284ec453e884daef6be3240286fa
+      internalID: -1629522308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_27
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 645
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414e0debef3647e419860e9eb4c147bc
+      internalID: 791406860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_28
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 645
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46049317eccf9c459535576703052cd
+      internalID: -68794321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_29
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 732
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a00ba75e0f142a4e8500167c2161fee
+      internalID: -489926898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_30
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 732
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f72552b941088d44b21a4f4e948c981
+      internalID: -1995187358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_31
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 695
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aa9cdc9693d204cbd656442d4621b1
+      internalID: 1758811172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_32
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 695
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab99a32b38954b041a6b1df090fe6365
+      internalID: -509961883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_33
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 695
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dacf25a8e6b1dc45b28fc7361b6b39b
+      internalID: -141492838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_34
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 695
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef52ce135282915419bab377ae9104cc
+      internalID: 1633705364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_35
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 695
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e780389f46d8f4baafad7733486d0e
+      internalID: 1211436339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_36
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 695
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fd49ff7cbf946478d1cad2261b254d
+      internalID: 1496527334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_37
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 695
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc519148c39c1a4687ca0da8bc7bdf1
+      internalID: -1157612527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_38
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 695
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0be0987cb0a4e644be9ca9c00b1682b
+      internalID: -219203650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_39
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 695
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610e373e366764e4d9bb5b4a6c0a870d
+      internalID: -1271935054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 555
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20226076206db9e47b6ddd7e19421c67
+      internalID: -408251566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_41
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 554
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03700f089bf1534782588530580ba03
+      internalID: 1304820706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_42
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 554
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca96bb3f0e79d44c9735f0ab980960d
+      internalID: 619005546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_43
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 554
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e47e74dd08a15468d8121ddd263ba3
+      internalID: -502331797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_44
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 554
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b86d3badee45ba45b3b9ca1e04890be
+      internalID: -2095786569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_45
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 554
+        width: 63
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fc0f42da1d8d840ba951b40c37716e
+      internalID: 626206127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_46
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 554
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0bc7bde0dc37a418ae1354014af1e0
+      internalID: 2063312190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_47
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 555
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bb323af5f64b5458655fa6cc2fef7c
+      internalID: 678735643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 462
+        width: 104
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6368199faea684cb09ded954d5ba55
+      internalID: 730523926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_49
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 461
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c08d6c4c45c042499ed1fc48592b9cf
+      internalID: 968225045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_50
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 460
+        width: 75
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28de37de6f86f2c4c94ec688dad4ed6c
+      internalID: 258439629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_51
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 461
+        width: 107
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d905393614e20b6468418bc1b176c5b5
+      internalID: -1309161507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_52
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 461
+        width: 110
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c4c361f9efb604da9f1ebe83074e07
+      internalID: -1679053510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_53
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 460
+        width: 61
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c96ac4605fc584ba24ee0028221acb
+      internalID: -1327082956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_54
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 460
+        width: 72
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb92e27107ee44e42a44572bd6d7ad2b
+      internalID: -26046976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_55
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 461
+        width: 116
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a13b618cafa6b0489dc71b2e70e088c
+      internalID: 1436077813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367
+        width: 138
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d008f8006bef4d8e5a7041739ec3d
+      internalID: 1424477409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_57
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 368
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b71b15a8142cb41b5836a4ecf42561
+      internalID: -1423107591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_58
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 368
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dec1b65b908b14483742ce7fcc679e
+      internalID: 2020901249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_59
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 369
+        width: 107
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411c527fb7703b74297b3c6894b8b696
+      internalID: -910999260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_60
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 368
+        width: 122
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7d1c0e175f3624c93ca3a0e5c4c351
+      internalID: -1774250397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_61
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 367
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdba8652f14f8b42a9a1d6d513515f8
+      internalID: 1937810488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_62
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 366
+        width: 55
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0eaec0b9833774b955bb6fc3a35b73
+      internalID: -1482079982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_63
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 366
+        width: 110
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d64810f645205c489929ded2cfe87c8
+      internalID: 1759301589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_64
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 273
+        width: 99
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca4a01fb2ddfab46be80c20d3c43ac0
+      internalID: -1428634272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_65
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 273
+        width: 133
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea71f9039b570f4cbd108be47479702
+      internalID: 1509830986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_66
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 272
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fd6a1c579268c49b2fb64314335ea2
+      internalID: -613113070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_67
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 271
+        width: 57
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b49210f4ef4bc4fbe861f867d870df
+      internalID: 793694086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_68
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 274
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d816b9166fd200479ae549fe55a94ea
+      internalID: 261630222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_69
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 274
+        width: 117
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4445f57eee95746b53a28029a35ec0
+      internalID: -932042107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_70
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 273
+        width: 100
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79d913d51f8a9a4a9c9a27d20fe5254
+      internalID: 341174673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_71
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 273
+        width: 59
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce40718d4cdf5741b1c25d229d631e9
+      internalID: -344701074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_72
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 181
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb55437d33e87f4da903b79217c4fe3
+      internalID: -863467634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c9eae4e4d10934a833fcc6ff31e1f0
+      internalID: -1041090721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_74
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 178
+        width: 108
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8d43126f227644795589ad163b67e0
+      internalID: -841168647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_75
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 178
+        width: 58
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fda2d1c5f5b87e43b7f04dacdc73b99
+      internalID: -194830244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_76
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 180
+        width: 82
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da640b488fdfd174097bab94fcf8b8ef
+      internalID: 1322987078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_77
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 180
+        width: 109
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298b2b8714f5ea1459624ed1fa1d3379
+      internalID: -313259171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_78
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 181
+        width: 103
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27f7cc00d845394a9fa1da085a6b23f
+      internalID: 1504162678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_79
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 180
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f774212ce0c18af4ab09b5be52c674c6
+      internalID: -272810206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_80
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 89
+        width: 75
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd867da831911146ac2a77aae7815a4
+      internalID: 428243499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_81
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 88
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61034633398b344eb0468a727531b30
+      internalID: 1056932129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_82
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 87
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5a83a11f4ee6249addd80ee36207d1
+      internalID: 1620725860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_83
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913a32023d7f0ef46a99db058b1257ba
+      internalID: -1074821152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_84
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 81
+        width: 86
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1ba6b5920af9344b922f51787032b3
+      internalID: -642912374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_85
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 86
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959f5d1ba44fae34bac1213c84f12f60
+      internalID: 920412224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_86
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 86
+        width: 54
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a235d78405cc0469fce01bd1480f64
+      internalID: -1825714619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_87
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 89
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8af20643859344ca2e0689edd8452e
+      internalID: -1964986793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d80f8da3012b6f4ea4efbd6268802f6
+      internalID: 832453068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_89
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 73
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344233c8b18667c4891941f24faabc57
+      internalID: 808031408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_90
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7c85f41548b9b469e5e09584522d11
+      internalID: 1005097354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_92
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ddde75b56e9a949b98c903bfea9132
+      internalID: 1750751580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_98
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6be6d44e5187ac46b607f7ae71a2d7d
+      internalID: -880731043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_102
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d0f7df520d6374e9f9b5fa6db1a491
+      internalID: -1299854589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_114
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b478e30a959874ab152d7821c13211
+      internalID: 1406119979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dbb1a063800c8464a803531b4c43b256
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_0: 111469955
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_1: -1440894654
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_10: 2060529219
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_100: 796782039
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_101: -1564121948
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_102: -1299854589
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_103: -1009565861
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_104: -284778373
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_105: 517876329
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_106: -149610167
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_107: 1729732956
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_108: -1661986053
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_109: 1906264381
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_11: 1541749059
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_110: -2009456608
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_111: 513471218
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_112: 587859763
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_113: 463258186
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_114: 1406119979
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_115: -1355855872
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_116: 1551908315
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_12: -752184919
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_13: 1855454881
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_14: -677737075
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_15: 1310792931
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_16: 329184254
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_17: -112143626
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_18: -1290357120
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_19: 1712181002
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_2: 2014317468
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_20: 1337674299
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_21: 2064070934
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_22: 1593783572
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_23: -1766628490
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_24: 2068458577
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_25: 786288264
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_26: -1629522308
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_27: 791406860
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_28: -68794321
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_29: -489926898
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_3: -172490083
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_30: -1995187358
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_31: 1758811172
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_32: -509961883
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_33: -141492838
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_34: 1633705364
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_35: 1211436339
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_36: 1496527334
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_37: -1157612527
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_38: -219203650
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_39: -1271935054
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_4: -1722979588
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_40: -408251566
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_41: 1304820706
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_42: 619005546
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_43: -502331797
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_44: -2095786569
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_45: 626206127
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_46: 2063312190
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_47: 678735643
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_48: 730523926
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_49: 968225045
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_5: -721077534
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_50: 258439629
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_51: -1309161507
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_52: -1679053510
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_53: -1327082956
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_54: -26046976
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_55: 1436077813
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_56: 1424477409
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_57: -1423107591
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_58: 2020901249
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_59: -910999260
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_6: -1206801206
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_60: -1774250397
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_61: 1937810488
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_62: -1482079982
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_63: 1759301589
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_64: -1428634272
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_65: 1509830986
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_66: -613113070
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_67: 793694086
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_68: 261630222
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_69: -932042107
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_7: -1769833570
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_70: 341174673
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_71: -344701074
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_72: -863467634
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_73: -1041090721
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_74: -841168647
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_75: -194830244
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_76: 1322987078
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_77: -313259171
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_78: 1504162678
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_79: -272810206
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_8: 1978100919
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_80: 428243499
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_81: 1056932129
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_82: 1620725860
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_83: -1074821152
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_84: -642912374
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_85: 920412224
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_86: -1825714619
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_87: -1964986793
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_88: 832453068
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_89: 808031408
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_9: -1356004880
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_90: 1005097354
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_91: 347652500
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_92: 1750751580
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_93: 628108040
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_94: -578419232
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_95: 1999962768
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_96: 940234995
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_97: -1082540466
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_98: -880731043
+      MS-DOS - DOOM _ DOOM II - Enemies (Legacy of Rust) - Vassago_99: 730006588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

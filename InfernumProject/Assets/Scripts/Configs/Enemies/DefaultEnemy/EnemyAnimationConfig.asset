@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd2192f986fc8141a5d2357df015328, type: 3}
+  m_Name: EnemyAnimationConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Infernum.FPS.Enemy.Animation.EnemyAnimationConfig
+  idle: {fileID: 11400000, guid: 2e50414cf7590de44903233d8010a6b6, type: 2}
+  move: {fileID: 11400000, guid: 3847db34882fbeb4cb4b440dbca279ac, type: 2}
+  attack: {fileID: 11400000, guid: 58280d5c74b70d24ba13d4e83b7cdff6, type: 2}
+  dead: {fileID: 11400000, guid: 841e7343d5effd84eb53264db3fae6d1, type: 2}
+  idleFrameInterval: 0.35
+  moveFrameInterval: 0.2
+  attackFrameInterval: 0.25
+  deadFrameInterval: 0.4

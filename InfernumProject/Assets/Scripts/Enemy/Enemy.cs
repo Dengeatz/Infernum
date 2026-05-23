@@ -20,6 +20,7 @@ namespace Infernum.FPS.Enemy
         [SerializeField] private EnemyPatrolService patrol;
         [SerializeField] private EnemyAttackService combat;
         [SerializeField] private EnemyAnimationService animationService;
+        [SerializeField] private EnemyHitReactionService hitReactionService;
         [SerializeField] private EnemyStateMachine stateMachine;
         [SerializeField] private FacePlayerSprite facePlayerSprite;
 
@@ -38,6 +39,11 @@ namespace Infernum.FPS.Enemy
         public Transform Transform => transform;
         public EnemyConfig Config => enemyConfig;
         public bool IsAlive => health == null || health.IsAlive;
+        
+        public void TakeDamage(float damage, GameObject instigator)
+        {
+            health.TakeDamage(damage, instigator);
+        }
 
         private void Awake()
         {
@@ -63,6 +69,16 @@ namespace Infernum.FPS.Enemy
                 animationService = gameObject.AddComponent<EnemyAnimationService>();
             }
 
+            if (hitReactionService == null)
+            {
+                hitReactionService = GetComponent<EnemyHitReactionService>();
+            }
+
+            if (hitReactionService == null)
+            {
+                hitReactionService = gameObject.AddComponent<EnemyHitReactionService>();
+            }
+
             if (stateMachine == null)
             {
                 stateMachine = GetComponent<EnemyStateMachine>();
@@ -85,6 +101,7 @@ namespace Infernum.FPS.Enemy
                 combat,
                 health,
                 animationService,
+                hitReactionService,
                 enemyConfig,
                 chaseRange,
                 chaseSpeed);

@@ -23,7 +23,7 @@ namespace Infernum.FPS.Player
         {
             if (aimCamera == null)
             {
-                aimCamera = GetComponentInChildren<Camera>();
+                aimCamera = FindAnyObjectByType<Camera>();
             }
 
             if (rayOrigin == null && aimCamera != null)
@@ -41,24 +41,25 @@ namespace Infernum.FPS.Player
                 return;
             }
 
-            Vector3 origin;
-            Vector3 direction;
+            Vector3 origin = rayOrigin.transform.position;
+            Vector3 direction = rayOrigin.transform.forward;
 
-            if (aimCamera != null)
-            {
-                Ray ray = aimCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
-                origin = ray.origin;
-                direction = ray.direction;
-            }
-            else if (rayOrigin != null)
-            {
-                origin = rayOrigin.position;
-                direction = rayOrigin.forward;
-            }
-            else
-            {
-                return;
-            }
+
+            // if (aimCamera != null)
+            // {
+            //     Ray ray = aimCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+            //     origin = ray.origin;
+            //     direction = ray.direction;
+            // }
+            // else if (rayOrigin != null)
+            // {
+            //     origin = rayOrigin.position;
+            //     direction = rayOrigin.forward;
+            // }
+            // else
+            // {
+            //     return;
+            // }
 
             LastRayOrigin = origin;
             LastRayDirection = direction;

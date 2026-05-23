@@ -20,6 +20,11 @@ namespace Infernum.FPS.Enemy.Fsm
 
         public void Tick(EnemyStateContext context, float deltaTime)
         {
+            if (context.TryApplyHitKnockback(deltaTime))
+            {
+                return;
+            }
+
             Transform target = context.PlayerTransform;
             if (target == null || context.Controller == null)
             {

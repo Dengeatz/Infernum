@@ -20,6 +20,11 @@ namespace Infernum.FPS.Enemy.Fsm
 
         public void Tick(EnemyStateContext context, float deltaTime)
         {
+            if (context.TryApplyHitKnockback(deltaTime))
+            {
+                return;
+            }
+
             if (context.Combat == null)
             {
                 return;

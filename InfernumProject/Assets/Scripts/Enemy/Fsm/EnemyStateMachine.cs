@@ -35,6 +35,7 @@ namespace Infernum.FPS.Enemy.Fsm
             }
 
             _context.Animation?.Tick(Time.deltaTime);
+            _context.HitReaction?.Tick(Time.deltaTime);
 
             if (_context.IsDead)
             {

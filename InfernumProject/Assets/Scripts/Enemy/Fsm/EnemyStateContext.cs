@@ -15,6 +15,7 @@ namespace Infernum.FPS.Enemy.Fsm
             EnemyAttackService combat,
             Health health,
             IEnemyAnimationService animation,
+            IEnemyHitReactionService hitReaction,
             EnemyConfig config,
             float chaseRange,
             float chaseSpeed)
@@ -25,6 +26,7 @@ namespace Infernum.FPS.Enemy.Fsm
             Combat = combat;
             Health = health;
             Animation = animation;
+            HitReaction = hitReaction;
             Config = config;
             ChaseRange = chaseRange;
             ChaseSpeed = chaseSpeed;
@@ -36,6 +38,7 @@ namespace Infernum.FPS.Enemy.Fsm
         public EnemyAttackService Combat { get; }
         public Health Health { get; }
         public IEnemyAnimationService Animation { get; }
+        public IEnemyHitReactionService HitReaction { get; }
         public EnemyConfig Config { get; }
 
         public float ChaseRange { get; }
@@ -77,6 +80,12 @@ namespace Infernum.FPS.Enemy.Fsm
         public bool IsPlayerInChaseRange()
         {
             return SqrDistanceToPlayer() <= ChaseRange * ChaseRange;
+        }
+
+        /// <returns>true — кадр занят отталкиванием, AI-движение пропустить.</returns>
+        public bool TryApplyHitKnockback(float deltaTime)
+        {
+            return HitReaction != null && HitReaction.ApplyKnockbackMovement(deltaTime);
         }
     }
 }

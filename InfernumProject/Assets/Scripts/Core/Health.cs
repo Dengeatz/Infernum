@@ -6,7 +6,7 @@ namespace Infernum.FPS.Core
     /// <summary>
     /// Простая реализация здоровья; может висеть на игроке и на враге.
     /// </summary>
-    public sealed class Health : MonoBehaviour, IDamageable
+    public sealed class Health : MonoBehaviour
     {
         [SerializeField] private float maxHealth = 100f;
 
@@ -17,6 +17,7 @@ namespace Infernum.FPS.Core
         public bool IsAlive => _current > 0f;
 
         public event Action<float, float> HealthChanged;
+        public event Action<float, GameObject> DamageTaken;
         public event Action<GameObject> Died;
 
         private void Awake()
@@ -33,6 +34,7 @@ namespace Infernum.FPS.Core
 
             _current = Mathf.Max(0f, _current - damage);
             HealthChanged?.Invoke(_current, maxHealth);
+            DamageTaken?.Invoke(damage, instigator);
 
             if (_current <= 0f)
             {

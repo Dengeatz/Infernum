@@ -103,7 +103,7 @@ namespace Infernum.FPS.UI
 
         private static TMP_FontAsset LoadDefaultTmpFont()
         {
-            var font = Resources.Load<TMP_FontAsset>("Fonts & Materials/LiberationSans SDF");
+            var font = Resources.Load<TMP_FontAsset>("Fonts/MGS1 HUD");
             if (font != null)
             {
                 return font;

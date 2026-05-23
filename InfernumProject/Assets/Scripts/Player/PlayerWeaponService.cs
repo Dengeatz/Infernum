@@ -147,7 +147,7 @@ namespace Infernum.FPS.Player
             {
                 return;
             }
-
+            
             _currentWeapon.TryFire(raycastService.Hits, gameObject, raycastService.LastRayOrigin);
         }
     }

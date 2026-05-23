@@ -27,7 +27,7 @@ namespace Infernum.FPS.Player
         public Camera ViewCamera => playerCameraService != null ? playerCameraService.Camera : null;
 
         public bool IsAlive => health == null || health.IsAlive;
-
+        
         private void Awake()
         {
             _camera = playerCameraService != null ? playerCameraService : null;
@@ -74,6 +74,11 @@ namespace Infernum.FPS.Player
             {
                 _weapon.Enabled = enabled;
             }
+        }
+        
+        public void TakeDamage(float damage, GameObject instigator)
+        {
+            health.TakeDamage(damage, instigator);
         }
 
         public void EquipWeapon(WeaponConfig config)

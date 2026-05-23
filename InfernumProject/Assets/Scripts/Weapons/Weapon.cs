@@ -36,7 +36,8 @@ namespace Infernum.FPS.Weapons
             {
                 return false;
             }
-
+            
+            
             ApplyDamage(hits, instigator);
             _context.SetFireRequest(hits, instigator, attackOrigin);
             return true;
@@ -57,10 +58,13 @@ namespace Infernum.FPS.Weapons
         {
             if (hits == null || hits.Count == 0)
             {
+                UnityEngine.Debug.Log($"hits are null");
                 return;
             }
 
             RaycastHit closest = hits[0];
+            UnityEngine.Debug.Log($"hit: {closest.collider.name}");
+            
             for (int i = 1; i < hits.Count; i++)
             {
                 if (hits[i].distance < closest.distance)
@@ -79,7 +83,7 @@ namespace Infernum.FPS.Weapons
             {
                 return;
             }
-
+            UnityEngine.Debug.Log($"Damage apply on: {closest.collider.name}");
             damageable.TakeDamage(Config.Damage, instigator);
         }
     }
